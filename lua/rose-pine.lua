@@ -315,7 +315,7 @@ local function set_highlights()
 		--- Functions
 		["@function"] = { fg = palette.rose },
 		["@function.builtin"] = { fg = palette.leaf, bold = styles.bold },
-		-- ["@function.call"] = {},
+		["@function.call"] = { link = "Function" },
 		["@function.macro"] = { link = "Function" },
 		["@function.method"] = { fg = palette.rose },
 		["@function.method.call"] = { fg = palette.iris },
