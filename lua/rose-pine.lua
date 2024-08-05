@@ -340,7 +340,7 @@ local function set_highlights()
 		["@keyword.directive.define"] = { fg = palette.iris },
 
 		--- Punctuation
-		["@punctuation.delimiter"] = { fg = palette.subtle },
+		["@punctuation.delimiter"] = { fg = palette.rose },
 		["@punctuation.bracket"] = { fg = palette.subtle },
 		["@punctuation.special"] = { fg = palette.subtle },
 
