@@ -341,8 +341,8 @@ local function set_highlights()
 
 		--- Punctuation
 		["@punctuation.delimiter"] = { fg = palette.rose },
-		["@punctuation.bracket"] = { fg = palette.subtle },
-		["@punctuation.special"] = { fg = palette.subtle },
+		["@punctuation.bracket"] = { fg = palette.rose },
+		["@punctuation.special"] = { fg = palette.rose },
 
 		--- Comments
 		["@comment"] = { link = "Comment" },
