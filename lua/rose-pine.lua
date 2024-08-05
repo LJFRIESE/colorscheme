@@ -340,9 +340,9 @@ local function set_highlights()
 		["@keyword.directive.define"] = { fg = palette.iris },
 
 		--- Punctuation
-		["@punctuation.delimiter"] = { fg = palette.rose },
-		["@punctuation.bracket"] = { fg = palette.rose },
-		["@punctuation.special"] = { fg = palette.rose },
+		["@punctuation.delimiter"] = { fg = palette.love },
+		["@punctuation.bracket"] = { fg = palette.love },
+		["@punctuation.special"] = { fg = palette.iris },
 
 		--- Comments
 		["@comment"] = { link = "Comment" },
