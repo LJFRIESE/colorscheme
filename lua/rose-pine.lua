@@ -103,7 +103,7 @@ local function set_highlights()
 		FoldColumn = { fg = palette.muted },
 		Folded = { fg = palette.text, bg = groups.panel },
 		IncSearch = { link = "CurSearch" },
-		LineNr = { fg = palette.muted },
+		LineNr = { fg = palette.leaf },
 		MatchParen = { fg = palette.pine, bg = palette.pine, blend = 25 },
 		ModeMsg = { fg = palette.subtle },
 		MoreMsg = { fg = palette.iris },
