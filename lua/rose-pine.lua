@@ -35,7 +35,7 @@ local function set_highlights()
 		["@number"] = { link = "Number" },
 		["@parameter"] = { fg = palette.iris, italic = styles.italic },
 		["@preproc"] = { link = "PreProc" },
-		["@punctuation"] = { fg = palette.rose },
+		["@punctuation"] = { fg = palette.love },
 		["@punctuation.bracket"] = { link = "@punctuation" },
 		["@punctuation.delimiter"] = { link = "@punctuation" },
 		["@punctuation.special"] = { link = "@punctuation" },
@@ -313,7 +313,7 @@ local function set_highlights()
 		["@property"] = { fg = palette.foam, italic = styles.italic },
 
 		--- Functions
-		["@function"] = { fg = palette.rose },
+		["@function"] = { fg = palette.leaf },
 		["@function.builtin"] = { fg = palette.leaf, bold = styles.bold },
 		["@function.call"] = { link = "Function" },
 		["@function.macro"] = { link = "Function" },
