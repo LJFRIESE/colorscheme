@@ -41,10 +41,10 @@ local variants = {
 		none = "NONE",
 	},
 	dawn = {
-_nc = "#f8f0e7",
+		_nc = "#f8f0e7",
 		base = "#26292C",
 		surface = "#272a30",
-		overlay = "#2d2a2e",
+		overlay = "#4d5154",
 		muted = "#2E323C",
 		subtle = "#727072",
 		text = "#fcfcfa",
