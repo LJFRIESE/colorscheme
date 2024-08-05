@@ -134,7 +134,7 @@ local function set_highlights()
 		SpellLocal = { sp = palette.subtle, undercurl = true },
 		SpellRare = { sp = palette.subtle, undercurl = true },
 		StatusLine = { fg = palette.subtle, bg = groups.panel },
-		StatusLineNC = { fg = palette.muted, bg = groups.panel, blend = 60 },
+		StatusLineNC = { fg = palette.subtle, bg = groups.panel, blend = 60 },
 		StatusLineTerm = { fg = palette.base, bg = palette.pine },
 		StatusLineTermNC = { fg = palette.base, bg = palette.pine, blend = 60 },
 		Substitute = { link = "IncSearch" },
