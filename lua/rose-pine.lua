@@ -869,9 +869,9 @@ local function set_highlights()
 		MiniStarterSection = { fg = palette.rose },
 		MiniStarterQuery = { link = "MoreMsg" },
 
-		MiniStatuslineDevinfo = { fg = palette.subtle, bg = palette.overlay },
+		MiniStatuslineDevinfo = { fg = palette.base, bg = palette.pine },
 		MiniStatuslineFileinfo = { link = "MiniStatuslineDevinfo" },
-		MiniStatuslineFilename = { fg = palette.muted, bg = palette.surface },
+		MiniStatuslineFilename = { fg = palette.base, bg = palette.pine },
 		MiniStatuslineInactive = { link = "MiniStatuslineFilename" },
 		MiniStatuslineModeCommand = { fg = palette.base, bg = palette.love, bold = styles.bold },
 		MiniStatuslineModeInsert = { fg = palette.base, bg = palette.foam, bold = styles.bold },
